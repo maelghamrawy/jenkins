@@ -21,7 +21,6 @@ pipeline {
                     echo "testing your app" 
                 }
             }
-            
             stage('deployment') {  
                 steps {
                     echo "the code is deployd"
